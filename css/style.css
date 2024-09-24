@@ -65,7 +65,7 @@ header {
     z-index: 9999;
     /*  Para aparecer na frente. (Para garantir) */
 }
-header.limitador {
+header .limitador {
     /* Define um layout flexbox para alinhar o conteúdo do cabeçalho */
     display: flex;
     flex-direction: row;
@@ -89,6 +89,11 @@ header.limitador {
 nav {
     /* Define a largura do elemento de navegação */
     width: 65%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
 }
 nav h2 {
     /* Alinha o texto do h2 à direita */
